@@ -1,4 +1,4 @@
-## Inga Sitnik
+## Inga SItnik
 *Email: domasevish1979@gmail.com*
 
 I want to study frontend development, as I like working with visual. 
