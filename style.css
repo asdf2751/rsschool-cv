@@ -34,14 +34,6 @@ h1::after {
             width: 30%;
         }
        
-        
-article::before {
-            content: '';
-            display: block;
-            width: 30px;
-            margin: 10px auto;
-            border-bottom: 5px dotted #fd644a;
-           }
 html {
     font-family: Verdana, Geneva, sans-serif;
 }
