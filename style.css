@@ -1,13 +1,32 @@
-.block {
-    width: 100%;
+
+header {
+    position: absolute;
     height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background: #abbffd;
+    color: #fff;
+    padding: 10px;
     text-align: center;
     font-size: 120%;
-    background-color: rgb(221, 143, 195);
+}
+ul {
+    background: #abbffd;
+    display: inline-block;
 }
 
-.list {
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    background: #8698ce;
+    color: #fff;
+    padding: 10px;
+    border-top: 3px solid #293c42;
     text-align: center;
-    display: inline-block;   
-    background-color:rgb(221, 143, 195);
 }
