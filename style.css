@@ -1,13 +1,39 @@
-.block {
-    width: 100%;
+
+body {
     height: 100%;
+    width: 100%;
+    background: #bbccff;
+    color: #fff;
+    padding: 10px;
     text-align: center;
     font-size: 120%;
-    background-color: rgb(221, 143, 195);
+    align-content: center;
+    display: inline-block;
+}
+ul {
+    display: inline-block;
+    text-align: left;
 }
 
-.list {
+footer {
+    width: 100%;
+    background: #9baad8;
+    color: #fff;
+    padding: 10px;
+    border-top: 3px solid #293c42;
     text-align: center;
-    display: inline-block;   
-    background-color:rgb(221, 143, 195);
+}
+
+h1::before,
+h1::after {
+            content: '';
+            background: #feea3b;
+            display: inline-block;
+            height: 2px;
+            vertical-align: middle;
+            width: 30%;
+        }
+       
+html {
+    font-family: Verdana, Geneva, sans-serif;
 }
