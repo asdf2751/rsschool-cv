@@ -9,6 +9,8 @@ body {
     font-size: 120%;
     align-content: center;
     display: inline-block;
+    margin:0; 
+    padding:0;
 }
 ul {
     display: inline-block;
@@ -18,7 +20,6 @@ ul {
 footer {
     width: 100%;
     background: #9baad8;
-    color: #fff;
     padding: 10px;
     border-top: 3px solid #293c42;
     text-align: center;
@@ -36,4 +37,8 @@ h1::after {
        
 html {
     font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+    color: white;
 }
